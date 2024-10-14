@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Estilos Globais */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+  /* Estilo do Cabeçalho e Rodapé */
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Estilo do Main e Seções */
+main, aside {
+    margin: 20px;
+}
+
+/* Estilo do Formulário */
+form {
+    margin-top: 20px;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Estilo do Rodapé */
+footer {
+    font-size: 12px;
+}
+  
