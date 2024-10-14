@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio HTML: Elementos Avançados, Listas e Formulários</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Cabeçalho com navegação -->
+<header>
+    <h1>Título Principal da Página</h1>
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Sobre</a>
+        <a href="#">Contato</a>
+    </nav>
+</header>
+
+<!-- Conteúdo Principal -->
+<main>
+    <!-- Seções com listas ordenadas e não ordenadas -->
+    <section>
+        <h2>Seção de Informações</h2>
+        <p>Abaixo estão alguns exemplos de listas ordenadas e não ordenadas:</p>
+
+        <!-- Lista não ordenada -->
+        <h3>Lista Não Ordenada</h3>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+
+        <!-- Lista ordenada -->
+        <h3>Lista Ordenada</h3>
+        <ol>
+            <li>Primeiro passo</li>
+            <li>Segundo passo</li>
+            <li>Terceiro passo</li>
+        </ol>
+    </section>
+
+    <!-- Formulário Interativo -->
+    <section>
+        <h2>Formulário de Inscrição</h2>
+        <form action="#" method="post">
+        
+        <!-- Campo de texto -->
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <!-- Botão de rádio -->
+        <p>Escolha o seu gênero:</p>
+        <input type="radio" id="masculino" name="genero" value="masculino">
+        <label for="masculino">Masculino</label><br>
+        <input type="radio" id="feminino" name="genero" value="feminino">
+        <label for="feminino">Feminino</label><br><br>
+
+        <!-- Caixa de seleção -->
+        <p>Interesses:</p>
+        <input type="checkbox" id="musica" name="interesse" value="musica">
+        <label for="musica">Música</label><br>
+        <input type="checkbox" id="esporte" name="interesse" value="esporte">
+        <label for="esporte">Esporte</label><br>
+        <input type="checkbox" id="tecnologia" name="interesse" value="tecnologia">
+        <label for="tecnologia">Tecnologia</label><br><br>
+
+        <!-- Campo de senha -->
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" required><br><br>
+
+        <!-- Menu de seleção -->
+        <label for="pais">Selecione seu país:</label>
+        <select id="pais" name="pais">
+            <option value="brasil">Brasil</option>
+            <option value="eua">Estados Unidos</option>
+            <option value="canada">Canadá</option>
+        </select><br><br>
+
+        <!-- Grupo de campos -->
+        <fieldset>
+            <legend>Informações adicionais</legend>
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" name="cidade"><br><br>
+            
+            <label for="cep">CEP:</label>
+            <input type="text" id="cep" name="cep">
+            </fieldset><br>
+
+            <!-- Botão de envio -->
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</main>
+
+<!-- Barra lateral -->
+<aside>
+    <h3>Informações Adicionais</h3>
+    <p>Essa é uma barra lateral com links ou informações adicionais.</p>
+</aside>
+
+<!-- Rodapé -->
+<footer>
+    <p>&copy; 2024 Seu Nome. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
